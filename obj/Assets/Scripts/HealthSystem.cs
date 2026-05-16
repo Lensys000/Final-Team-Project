@@ -2,7 +2,7 @@ using UnityEngine;
 public class HealthSystem : MonoBehaviour
 {
     [SerializeField] GameObject player;
-    float health = 3;
+    public float health = 3.0f;
 
     public void DecreasePlayerHealth(float amount)
     {
@@ -17,6 +17,7 @@ public class HealthSystem : MonoBehaviour
     public void AddHealth(float amount)
     {
         health += amount;
+        health = Mathf.Min(health, 6f);
     }
 
     public float Health

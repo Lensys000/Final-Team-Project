@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4295575243150407226}
   - component: {fileID: 7625807772108221682}
-  - component: {fileID: 3007255774466103514}
   - component: {fileID: 5920745283493813052}
   - component: {fileID: 3648851283536630254}
   - component: {fileID: -8912441844578589476}
+  - component: {fileID: 7884579214995001888}
   m_Layer: 0
   m_Name: Enemy1
   m_TagString: Untagged
@@ -29,13 +29,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1129273056996659729}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 31.09383, y: 116.98123, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7625807772108221682
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -91,19 +91,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3007255774466103514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1129273056996659729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4906452bb3e937841b6eb0a5482edc11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpeedDown: 2
 --- !u!114 &5920745283493813052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,3 +162,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.4, y: 0.7}
   m_EdgeRadius: 0
+--- !u!114 &7884579214995001888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129273056996659729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d277a398a9b72f4bb1ff166990b66eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  waveSpeed: 3
+  waveAmount: 2

@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class playerMovement : MonoBehaviour
+public class Movement: MonoBehaviour
 {
-        private int moveSpeed = 9;
+    public int moveSpeed = 9;
     void Update()
         {
             float horizontalInput = Input.GetAxis("Horizontal");

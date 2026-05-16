@@ -63,6 +63,8 @@
   <ItemGroup>
     <Compile Include="Assets\2D Space Kit\Scripts\PSDestroy.cs" />
     <Compile Include="Assets\Scripts\HealthSystem.cs" />
+    <Compile Include="Assets\Scripts\Powerup2.cs" />
+    <Compile Include="Assets\Scripts\EnemyShip2.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\ShipCamera.cs" />
     <Compile Include="Assets\Scripts\ShootSystem.cs" />
     <Compile Include="Assets\Scripts\MeteorMovement.cs" />
@@ -70,10 +72,11 @@
     <Compile Include="Assets\Scripts\HealthDisplay.cs" />
     <Compile Include="Assets\Scripts\ScoreUi.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\MovingBackground.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\ParallaxLayer.cs" />
     <Compile Include="Assets\Scripts\Restart.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\CustomPointer.cs" />
-    <Compile Include="Assets\Scripts\EnemyShipMovement.cs" />
     <Compile Include="Assets\Scripts\enemyHealth.cs" />
     <Compile Include="Assets\Scripts\enemyCollision.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\Crosshair.cs" />
@@ -82,6 +85,7 @@
     <Compile Include="Assets\2D Space Kit\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\PlayerControlledTurret.cs" />
+    <Compile Include="Assets\Scripts\EnemyShip1.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\ExampleShipControl.cs" />
   </ItemGroup>
   <ItemGroup>

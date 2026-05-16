@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class EnemyHealth : MonoBehaviour
 {
-    [SerializeField] float health = 1f;
+    public float health = 1f;
 
     public void DecreaseEnemyHealth(float amount)
     {
