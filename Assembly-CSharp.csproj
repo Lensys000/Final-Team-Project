@@ -62,28 +62,63 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\2D Space Kit\Scripts\PSDestroy.cs" />
-    <Compile Include="Assets\EnemySpawner.cs" />
+    <Compile Include="Assets\Scripts\HealthSystem.cs" />
+    <Compile Include="Assets\Scripts\Powerup2.cs" />
+    <Compile Include="Assets\Scripts\EnemyShip2.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\ShipCamera.cs" />
-    <Compile Include="Assets\EnemyShipMovement.cs" />
-    <Compile Include="Assets\Movement.cs" />
+    <Compile Include="Assets\Scripts\ShootSystem.cs" />
+    <Compile Include="Assets\Scripts\MeteorMovement.cs" />
+    <Compile Include="Assets\Scripts\BulletScript.cs" />
+    <Compile Include="Assets\Scripts\HealthDisplay.cs" />
+    <Compile Include="Assets\Scripts\ScoreUi.cs" />
+    <Compile Include="Assets\Scripts\Spawner.cs" />
+    <Compile Include="Assets\Scripts\MovingBackground.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\ParallaxLayer.cs" />
+    <Compile Include="Assets\Scripts\Restart.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\CustomPointer.cs" />
+    <Compile Include="Assets\Scripts\enemyHealth.cs" />
+    <Compile Include="Assets\Scripts\enemyCollision.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\Crosshair.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\AimBeam.cs" />
+    <Compile Include="Assets\Scripts\Powerup1.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\Projectile.cs" />
-    <Compile Include="Assets\MeteorMovement.cs" />
+    <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\PlayerControlledTurret.cs" />
+    <Compile Include="Assets\Scripts\EnemyShip1.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\ExampleShipControl.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\2D Space Kit\Backgrounds\Background Tip.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\2D Space Kit\Readme.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\2D Space Kit\Background Elements\Planets\Planet Masks\Note.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\2D Space Kit\Background Elements\Stars\Recolor Us!.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\2D Space Kit\Particles (Sprites)\Note on Flares.txt" />
     <None Include="Assets\2D Space Kit\Backgrounds\Fantasy Purple 2048\Note.txt" />
     <None Include="Assets\2D Space Kit\Scripts\WARNING.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\2D Space Kit\Ships and Stations\Rendering Tip.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
