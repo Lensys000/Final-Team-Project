@@ -1,3 +1,4 @@
+
 using UnityEditor;
 using UnityEngine;
 
@@ -27,7 +28,7 @@ public class Spawner : MonoBehaviour
     float enemy1Health = 0f;
     float enemy2Health = 0f;
     float meteorHealth = 0f;
-    float meteorGroupHealth = 0f;
+
 
 
     void Update()
@@ -58,7 +59,6 @@ public class Spawner : MonoBehaviour
             enemy1Health = 2f;
             enemy2Health = 3f;
             meteorHealth = 2f;
-            meteorGroupHealth = 1f;
         }
 
         if (totalTime > 165)
@@ -71,7 +71,6 @@ public class Spawner : MonoBehaviour
             enemy1Health = 3f;
             enemy2Health = 3f;
             meteorHealth = 3f;
-            meteorGroupHealth = 2f;
 
         }
 
@@ -124,9 +123,7 @@ public class Spawner : MonoBehaviour
 
     public void MeteorSpawn()
     {
-        Vector3 randomPosition = new Vector3(Random.Range(-18, 18),
-                                             11,
-                                             0);
+        Vector3 randomPosition = new Vector3(Random.Range(-18, 18), 11, 0);
         GameObject meteor = Instantiate(Meteor, randomPosition, Quaternion.identity);
         meteor.GetComponent<EnemyHealth>().health = meteorHealth;
         timeSinceLastMeteor = 0;
@@ -138,7 +135,6 @@ public class Spawner : MonoBehaviour
                                              11,
                                              0);
         GameObject group = Instantiate(Meteorgroup, randomPosition, Quaternion.identity);
-        group.GetComponent<EnemyHealth>().health += meteorGroupHealth;
         timeSinceLastGroupMeteor = 0;
     }
 

@@ -1,16 +1,28 @@
 using UnityEngine;
+
 public class HealthSystem : MonoBehaviour
 {
     [SerializeField] GameObject player;
+
+    [SerializeField] AudioSource audioSource;
+    [SerializeField] AudioClip hurtSound;
+    [SerializeField] AudioClip destroySound;
+
     public float health = 3.0f;
 
     public void DecreasePlayerHealth(float amount)
     {
         health -= amount;
+
+        audioSource.PlayOneShot(hurtSound);
+
         if (health <= 0)
         {
+            audioSource.PlayOneShot(destroySound);
+
             FindObjectOfType<RestartScript>().ShowRestartScreen();
-            Destroy(player);
+
+            Destroy(player, 0.2f);
         }
     }
 
